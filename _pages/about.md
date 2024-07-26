@@ -13,11 +13,14 @@ In the past I had a career as a research\machine learning engineer in Meta\Reali
 
 In my free time I enjoy brewing coffee, running\lifting and playing piano.
 
+# Publications
 
-# Add a 'publications' page's content here
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
 
-{% assign publications = site.pages
-    | where:"permalink", "publications" 
-    | first %}
+{% include base_path %}
 
-{{publications.content}}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
