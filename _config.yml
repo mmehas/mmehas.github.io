@@ -21,7 +21,7 @@ repository               : "mmehas/mmehas.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "mikhail.png"
   name             : "Mikhail Okunev"
   pronouns         : # example: "she/her"  
   bio              : "4th year PhD Student in Machine Learning"
