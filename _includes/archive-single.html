@@ -14,27 +14,58 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline">
-        <a href="{{ post.url | relative_url }}">{{ title }}</a>
-    </h2>
+    <style>
+        table, th, td {
+            border: 1px solid white;
+        }
+    </style>
+
     <table>
         <tr>
-            Shrink the first column to the width of the image
-            <td style="width:100px;">
-                <img src="{{ post.teaser }}" alt="Teaser" style="width:100px;height:100px;">
+            <td style="width:200px;">
+                <img src="{{ post.teaser }}" alt="Teaser" style="width:200px;height:200px;">
             </td>
             <td>
-                <p class="archive__item-excerpt" itemprop="description">
-                    {{ post.excerpt | markdownify }}
-                </p>
-                <p class="archive__item-meta">
-                    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-                    {{ post.date | date: site.date_format }}
-                    </time>
-                </p>
+                <b>{{post.title}}</b>
+                <br>
+                {% assign authors = post.authors | split: "," %}
+                {% for author in authors %}
+                    {%- assign authorC = author | remove: "*" | strip -%}
+                    {%- assign authorData = site.data.authors[authorC] -%}
+                    {%- if authorData.uri -%}
+                        <a href="{{authorData.uri}}">{{authorData.name}}</a>
+                    {%- else -%}
+                        {%- if authorData.name contains 'Mikhail Okunev' -%}
+                            <b>{{authorData.name}}</b>
+                        {%- else -%}
+                            {{authorData.name}}
+                        {%- endif -%}
+                    {%- endif -%}
+                    {%- if author contains "*" -%}
+                        *
+                    {%- endif -%}
+                    
+                    {%- if forloop.last == false -%}
+                        , 
+                    {% endif %}
+                {% endfor %}
+
+                <br>
+                <b>Tl;dr</b>: {{post.excerpt}}
+                <br>
+                {{post.venue}}
+                <br>
+                {%- if post.paperurl -%}
+                    <a href="{{post.paperurl}}">[Paper]</a>
+                {%- endif -%}
+                {%- if post.videourl -%}
+                    <a href="{{post.videourl}}">[Video]</a>
+                {%- endif -%}
+                {%- if post.projecturl -%}
+                    <a href="{{post.projecturl}}">[Project Page]</a>
+                {%- endif -%}
             </td>
         </tr>
     </table>
-
   </article>
 </div>

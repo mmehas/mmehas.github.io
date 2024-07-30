@@ -1,18 +1,76 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Mikhail Okunev:
+  name        : "Mikhail Okunev"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Marc Mapeke:
+  name        : "Marc Mapeke"
+
+James Tompkin:
+  name        : "James Tompkin"
+  uri         : "http://jamestompkin.com"
+
+Christian Richardt:
+  name        : "Christian Richardt"
+  uri         : "https://richardt.name/"
+
+Benjamin Attal:
+  name        : "Benjamin Attal"
+  uri         : "https://www.battal.me/"
+
+Matthew O'Toole:
+  name        : "Matthew O'Toole"
+  uri         : "http://www.cs.cmu.edu/~motoole2/"
+
+Yiqing Liang:
+  name        : "Yiqing Liang"
+  uri         : "https://lynl7130.github.io/"
+
+Mikaela Angelina Uy:
+  name        : "Mikaela Angelina Uy"
+  uri         : "https://mikacuy.github.io/"
+
+Runfeng Li:
+  name        : "Runfeng Li"
+
+Adam Harley:
+  name        : "Adam Harley"
+  uri         : "https://adamharley.com/"
+
+Leonidas Guibas:
+  name        : "Leonidas J. Guibas"
+  uri         : "https://geometry.stanford.edu/member/guibas/"
+
+Zhengqin Li:
+  name        : "Zhengqin Li"
+  uri         : "https://sites.google.com/view/zhengqinli"
+
+Li Yu:
+  name        : "Li Yu"
+
+Manmohan Chandraker:
+  name        : "Manmohan Chandraker"
+  uri         : "https://cseweb.ucsd.edu//~mkchandraker/"
+
+Zhao Dong:
+  name        : "Zhao Dong"
+  uri         : "flycooler.com"
+
+Anton Kaplanyan:
+  name        : "Anton Kaplanyan"
+  uri         : "kaplanyan.com"
+
+Anton Sochenov:
+  name        : "Anton Sochenov"
+
+Thomas Leimkuehler:
+  name        : "Thomas Leimkühler"
+  uri         : "https://people.mpi-inf.mpg.de/~tleimkue/"
+
+Todd Goodall:
+  name        : "Todd Goodall"
+  uri         : "https://www.toddgoodall.com/"
+
+Gizem Rufo:
+  name        : "Gizem Rufo"
+  uri         : "https://gizemkucukoglu.com/"
