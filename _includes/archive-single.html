@@ -23,7 +23,7 @@
     <table>
         <tr>
             <td style="width:200px;">
-                <img src="{{ post.teaser }}" alt="Teaser" style="width:200px;height:200px;">
+                <img src="{{ post.teaser }}" alt="Teaser" style="width:200px;">
             </td>
             <td>
                 <b>{{post.title}}</b>
@@ -53,7 +53,7 @@
                 <br>
                 <b>Tl;dr</b>: {{post.excerpt}}
                 <br>
-                {{post.venue}}
+                <font color="blue"><b>{{post.venue}}</b></font>
                 <br>
                 {%- if post.paperurl -%}
                     <a href="{{post.paperurl}}">[Paper]</a>

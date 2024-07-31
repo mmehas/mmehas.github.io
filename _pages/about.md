@@ -7,17 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Mikhail Okunev, 4-th year PhD student in Brown Visual Computing Lab advised by James Tompkin. I'm broadly interested in 3d reconstruction. Most recently my research was about accurate reconstruction of motion with dynamic NeRFs and cToF cameras.
+{: style="text-align: justify" }
+Hi, I'm Mikhail Okunev, 4-th year PhD student in [Brown Visual Computing Lab](https://visual.cs.brown.edu/) advised by [James Tompkin](https://jamestompkin.com/). I'm broadly interested in 3d reconstruction, inverse rendering and dynamic scene representations, especially with a monocular camera.
 
-In the past I had a career as a research\machine learning engineer in Meta\Reality Labs, Microsoft and a Silicon Valley Startup. I've been working on a broad range of topics including lightning estimation, foveated rendering, video superresolution, automatic visual defect detection in electronics, spam\fraud detection, ranking, etc.
+{: style="text-align: justify" }
+I joined academia pretty late in life. In the past I had a career as a research\machine learning engineer in Meta Reality Labs, Meta spam detection team, Microsoft Bing and a Silicon Valley startup. I've been working on a broad range of topics including lightning estimation, foveated rendering, video superresolution, automatic visual anomaly detection, spam & fraud detection, ranking, etc.
 
-In my free time I enjoy brewing coffee, running\lifting and playing piano.
+{: style="text-align: justify" }
+In my free time I enjoy brewing coffee, lifting weights and playing piano.
 
 # Publications
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
