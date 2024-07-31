@@ -25,7 +25,7 @@
             <td style="width:200px;">
                 <img src="{{ post.teaser }}" alt="Teaser" style="width:200px;">
             </td>
-            <td>
+            <td style="text-align: justify;">
                 <b>{{post.title}}</b>
                 <br>
                 {% assign authors = post.authors | split: "," %}
@@ -51,7 +51,7 @@
                 {% endfor %}
 
                 <br>
-                <b>Tl;dr</b>: {{post.excerpt}}
+                <b>tl;dr</b>: {{post.excerpt}}
                 <br>
                 <font color="green" >{{post.venue}}</font>
                 <br>
