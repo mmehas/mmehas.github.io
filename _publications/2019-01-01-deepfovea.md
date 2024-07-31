@@ -3,7 +3,7 @@ title: "DeepFovea: Neural Reconstruction for Foveated Rendering and Video Compre
 collection: publications
 permalink: /publication/deepfovea
 authors: Anton Kaplanyan, Anton Sochenov, Thomas Leimkuehler, Mikhail Okunev, Todd Goodall, Gizem Rufo
-excerpt: 'We made a foveated rendering system that allows to render only ~10% of the pixels, while inpainting the rest with a neural network.'
+excerpt: 'We made a foveated rendering system that allows us to render only ~10% of the pixels, while inpainting the rest with a neural network.'
 date: 2019-01-01
 venue: 'SIGGRAPH Asia 2019'
 citation: ''

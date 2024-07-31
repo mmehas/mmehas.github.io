@@ -1,9 +1,9 @@
 ---
 title: "Spatiotemporally Consistent HDR Indoor Lighting Estimation"
 collection: publications
-permalink: /publication/indoor_lightning_estimation
+permalink: /publication/indoor_lighting_estimation
 authors: Zhengqin Li, Li Yu, Mikhail Okunev, Manmohan Chandraker, Zhao Dong
-excerpt: 'Spatially and temporally consistent HDR lightning from videos'
+excerpt: 'Spatially and temporally consistent HDR lighting from videos'
 date: 2023-01-01
 venue: 'ACM ToG, Presented in SIGGRAPH Asia 2023'
 citation: ''
