@@ -1,5 +1,5 @@
 ---
-title: "DeepFovea"
+title: "DeepFovea: Neural Reconstruction for Foveated Rendering and Video Compression using Learned Statistics of Natural Videos"
 collection: publications
 permalink: /publication/deepfovea
 authors: Anton Kaplanyan, Anton Sochenov, Thomas Leimkuehler, Mikhail Okunev, Todd Goodall, Gizem Rufo
