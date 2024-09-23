@@ -417,7 +417,7 @@
           displayName: '2D Flowed',
         },
         {
-          name: "GT",
+          name: "gt",
           displayName: "Ground Truth",
         },
       ]
@@ -442,7 +442,7 @@
         dsDiv.innerHTML = dsDiv.innerHTML + `<button onclick='hideVideoDiv(\"` + d.name + `\")'>Hide Videos</button><br><br>`
 
         const videoGridData = [methods.map((method) => (
-          method.name != 'GT' || d.gt_exists ?
+          method.name != 'gt' || d.gt_exists ?
             {
               path: d.folder + "/" + d.name + "/" + method.name + '.mp4',
               label: method.displayName
