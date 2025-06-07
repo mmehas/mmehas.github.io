@@ -5,9 +5,9 @@ permalink: /publication/gaussian_benchmark
 authors: Yiqing Liang, Mikhail Okunev, Mikaela Angelina Uy, Runfeng Li, Leonidas Guibas, James Tompkin, Adam Harley
 excerpt: 'We test various SOTA Gaussian Splatting methods for dynamic monocular reconstruction and look at their performance on popular benchmarks.'
 date: 2024-07-26
-paperurl: 'https://lynl7130.github.io/data/DyGauBench_tmp.pdf'
+paperurl: 'https://arxiv.org/abs/2412.04457'
 teaser: images/dygaubench_teaser.gif
-projecturl: 'https://lynl7130.github.io/MonoDyGauBench.github.io/'
+projecturl: 'https://brownvc.github.io/MonoDyGauBench.github.io/'
 venue: TMLR 2025
 ---
 
